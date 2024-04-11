@@ -11,5 +11,10 @@ namespace Course_Project.Controllers
         {
             return View();
         }
+        [Route("[action]")]
+        public IActionResult Course()
+        {
+            return View();
+        }
     }
 }
